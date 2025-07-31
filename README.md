@@ -1,81 +1,98 @@
-# MERN Stack Job Portal
+Sure! Here's your updated README with your name as the creator:
 
-Welcome to the Job Portal project! This project is a job portal application built using the MERN stack (MongoDB, Express, React, Node.js).
+
+# MERN Job Portal – Created by Praveena Pantham
+
+Welcome to my Job Portal project! This is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js) that allows users to search and apply for jobs, and recruiters to post job openings.
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+* Project Overview
+* Features
+* Installation
+* Usage
+* Contributing
+* License
+* Author
 
 ## Project Overview
 
-This Job Portal application allows users to search and apply for jobs, as well as for employers to post job openings. The application is built using the MERN stack, which provides a robust and efficient development environment for full-stack applications.
+This job portal was developed by Praveena Pantham as a practical MERN stack project. The platform supports both job seekers and recruiters with a clean, modern UI and intuitive functionality.
 
 ## Features
 
-- User authentication and authorization
-- Job listing and search functionality
-- Job application process
-- Employer dashboard for managing job postings
-- Responsive design for mobile and desktop
+* User registration, login, and role-based access (Student / Recruiter)
+* Recruiters can post and manage job listings
+* Students can search for jobs and apply
+* Secure authentication using JWT and cookies
+* File uploads for profile photos and resumes (via Cloudinary)
+* Responsive design
 
 ## Installation
 
-To run this project locally, follow these steps:
+To run this project locally:
 
-### Backend Setup
+🛠 Backend Setup
 
 1. Navigate to the backend directory:
-   ```bash
-   cd ./backend
-   ```
 
-2. Install the required dependencies:
-   ```bash
-   npm i
-   ```
+   cd ./Backend
 
-3. Start the backend server:
-   ```bash
+2. Install the dependencies:
+
+   npm install
+
+3. Create a .env file in the backend folder with the following (update with your actual credentials):
+
+PORT=5000
+MONGO\_URI=your\_mongo\_uri
+JWT\_SECRET=your\_jwt\_secret
+CLOUDINARY\_CLOUD\_NAME=your\_cloud\_name
+CLOUDINARY\_API\_KEY=your\_api\_key
+CLOUDINARY\_API\_SECRET=your\_api\_secret
+
+4. Start the backend server:
+
    npm run dev
-   ```
 
-   You should see the following messages:
-   ```
-   "Your server is running on a port"
-   "MongoDB connected..."
-   ```
+You should see:
+Server is running on port 5000
+MongoDB Connected...
 
-### Frontend Setup
+💻 Frontend Setup
 
 1. Navigate to the frontend directory:
-   ```bash
-   cd ./frontend
-   ```
 
-2. Install the required dependencies:
-   ```bash
-   npm i
-   ```
+   cd ./Frontend
 
-3. Start the frontend development server:
-   ```bash
+2. Install dependencies:
+
+   npm install
+
+3. Start the frontend server:
+
    npm run dev
-   ```
+
+Default app URL: [http://localhost:5173](http://localhost:5173)
 
 ## Usage
 
-Once both the backend and frontend servers are running, you can access the application on your local machine. The default development server is typically available at `http://localhost:3000`.
+* Open [http://localhost:5173](http://localhost:5173)
+* Register as a Student or Recruiter
+* Recruiters can create job posts
+* Students can browse and apply to jobs
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
+This project is personal, but feel free to fork it or build upon it for your own use or learning. Contributions are welcome!
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+
+Developed by Praveena Pantham
+GitHub: [https://github.com/praveenapantham](https://github.com/praveenapantham)
+LinkedIn: [https://www.linkedin.com/in/praveenapantham](https://www.linkedin.com/in/praveenapantham) (if available)
 

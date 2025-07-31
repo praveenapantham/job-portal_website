@@ -71,13 +71,14 @@ export const register = async (req, res) => {
       message: `Account created successfully for ${fullname}`,
       success: true,
     });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({
-      message: "Server Error registering user",
-      success: false,
-    });
-  }
+  }  catch (error) {
+  console.error("🔥 Registration Error:", error); // shows full stack trace
+  res.status(500).json({
+    message: error.message || "Server Error registering user",
+    success: false,
+  });
+}
+
 };
 
 export const login = async (req, res) => {
