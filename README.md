@@ -1,87 +1,65 @@
 # MERN Job Portal – Created by Praveena Pantham
 
-Welcome to my Job Portal project! This is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js) that allows users to search and apply for jobs, and recruiters to post job openings.
+This is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows students to search and apply for jobs, and recruiters to post job openings.
 
-## Table of Contents
+## 🚀 Features
+- User Registration & Login (Student / Recruiter)
+- Recruiters can post and manage job listings
+- Students can browse and apply for jobs
+- Secure authentication using JWT (JSON Web Tokens)
+- File uploads for resumes and profile photos (via Cloudinary)
+- Responsive UI (React + Tailwind CSS)
 
-* Project Overview
-* Features
-* Installation
-* Usage
-* Contributing
-* License
-* Author
+## 🛠️ Technologies Used
+- MongoDB, Express.js, Node.js
+- React + Tailwind CSS
+- Redux (state management)
+- JWT for authentication
+- Cloudinary for file uploads
 
-## Project Overview
+## 📦 Installation & Setup
 
-This job portal was developed by Praveena Pantham as a practical MERN stack project. The platform supports both job seekers and recruiters with a clean, modern UI and intuitive functionality.
+### Backend
+1. Navigate to the backend folder:  
+   `cd ./Backend`
 
-## Features
+2. Install dependencies:  
+   `npm install`
 
-* User registration, login, and role-based access (Student / Recruiter)
-* Recruiters can post and manage job listings
-* Students can search for jobs and apply
-* Secure authentication using JWT (JSON Web Tokens)
-* File uploads for profile photos and resumes (via Cloudinary)
-* Responsive design
-
-## Installation
-
-To run this project locally:
-
-🛠 Backend Setup
-
-1. Navigate to the backend directory:
-
-   cd ./Backend
-
-2. Install the dependencies:
-
-   npm install
-
-3. Create a .env file in the backend folder with the following (update with your actual credentials):
+3. Create a `.env` file with your credentials:
 
 PORT=5000
-MONGO\_URI=your\_mongo\_uri
-JWT\_SECRET=your\_jwt\_secret
-CLOUDINARY\_CLOUD\_NAME=your\_cloud\_name
-CLOUDINARY\_API\_KEY=your\_api\_key
-CLOUDINARY\_API\_SECRET=your\_api\_secret
+MONGO_URI=your_mongo_uri
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
 
-4. Start the backend server:
-
-   npm run dev
+4. Start the backend:  
+`npm run dev`
 
 You should see:
 Server is running on port 5000
 MongoDB Connected...
 
-💻 Frontend Setup
 
-1. Navigate to the frontend directory:
+### Frontend
+1. Navigate to the frontend folder:  
+`cd ./Frontend`
 
-   cd ./Frontend
+2. Install dependencies:  
+`npm install`
 
-2. Install dependencies:
+3. Start the frontend:  
+`npm run dev`
 
-   npm install
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-3. Start the frontend server:
+## 🔧 Usage
+- Register as a Student or Recruiter
+- Recruiters can create and manage job posts
+- Students can apply for jobs directly
 
-   npm run dev
-
-Default app URL: [http://localhost:5173](http://localhost:5173)
-
-## Usage
-
-* Open [http://localhost:5173](http://localhost:5173)
-* Register as a Student or Recruiter
-* Recruiters can create job posts
-* Students can browse and apply to jobs
-
-## Author
-
-Developed by Praveena Pantham
-GitHub: [https://github.com/praveenapantham](https://github.com/praveenapantham)
-LinkedIn: [https://www.linkedin.com/in/praveenapantham](https://www.linkedin.com/in/praveenapantham)
-
+## ✍️ Author
+Created by Praveena Pantham  
+GitHub: [https://github.com/praveenapantham](https://github.com/praveenapantham)  
