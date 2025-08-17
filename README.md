@@ -1,6 +1,3 @@
-Sure! Here's your updated README with your name as the creator:
-
-
 # MERN Job Portal – Created by Praveena Pantham
 
 Welcome to my Job Portal project! This is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js) that allows users to search and apply for jobs, and recruiters to post job openings.
@@ -24,7 +21,7 @@ This job portal was developed by Praveena Pantham as a practical MERN stack proj
 * User registration, login, and role-based access (Student / Recruiter)
 * Recruiters can post and manage job listings
 * Students can search for jobs and apply
-* Secure authentication using JWT and cookies
+* Secure authentication using JWT (JSON Web Tokens)
 * File uploads for profile photos and resumes (via Cloudinary)
 * Responsive design
 
@@ -82,17 +79,9 @@ Default app URL: [http://localhost:5173](http://localhost:5173)
 * Recruiters can create job posts
 * Students can browse and apply to jobs
 
-## Contributing
-
-This project is personal, but feel free to fork it or build upon it for your own use or learning. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Author
 
 Developed by Praveena Pantham
 GitHub: [https://github.com/praveenapantham](https://github.com/praveenapantham)
-LinkedIn: [https://www.linkedin.com/in/praveenapantham](https://www.linkedin.com/in/praveenapantham) (if available)
+LinkedIn: [https://www.linkedin.com/in/praveenapantham](https://www.linkedin.com/in/praveenapantham)
 
